@@ -2,6 +2,7 @@
 
 import Image from 'next/image'
 import { useScreenWidth } from './lib/hooks/use-desktop'
+import ProjectCard from './ui/project-card'
 import StackCard from './ui/stack-card'
 
 export default function Home() {
@@ -16,7 +17,7 @@ export default function Home() {
               xmlns="http://www.w3.org/2000/svg"
               width="16"
               height="16"
-              fill="currentColor"
+              fill="#38c0dc"
               className="bi bi-github w-8 h-8"
               viewBox="0 0 16 16"
             >
@@ -28,7 +29,7 @@ export default function Home() {
               xmlns="http://www.w3.org/2000/svg"
               width="16"
               height="16"
-              fill="currentColor"
+              fill="#38c0dc"
               className="bi bi-linkedin w-8 h-8"
               viewBox="0 0 16 16"
             >
@@ -41,7 +42,7 @@ export default function Home() {
               xmlns="http://www.w3.org/2000/svg"
               width="16"
               height="16"
-              fill="currentColor"
+              fill="#38c0dc"
               className="bi bi-whatsapp w-8 h-8"
               viewBox="0 0 16 16"
             >
@@ -98,14 +99,19 @@ export default function Home() {
             </h3>
           </div>
           {screenWidth >= 768 && (
-            <div className="flex flex-col items-center md:items-start md:mt-5">
-              <Image
-                src="/personal-image.png"
-                alt="Foto Rafael Ricciardi"
-                width={300}
-                height={300}
-                className="bg-teal-700 rounded-full md:mr-10"
-              />
+            <div className="flex flex-col items-center md:items-start md:mt-5 hover:scale-125 transition-transform hover:cursor-pointer">
+              <a
+                target="blank"
+                href="https://www.linkedin.com/in/rafaelricciardi/"
+              >
+                <Image
+                  src="/personal-image.png"
+                  alt="Foto Rafael Ricciardi"
+                  width={300}
+                  height={300}
+                  className="bg-teal-700 rounded-full md:mr-10"
+                />
+              </a>
             </div>
           )}
         </div>
@@ -143,11 +149,11 @@ export default function Home() {
             </svg>
           </a>
         </div>
-        <div className="mt-10 md:mt-20 flex flex-col gap-4 items-center w-full">
+        <div className="mt-10 md:mt-40 flex flex-col gap-4 items-center w-full">
           <h2 className="text-white-500 text-2xl border-b-2 border-teal-500">
             <a name="sobre">Sobre mim</a>
           </h2>
-          <p className="text-center lg:w-[70%] text-base">
+          <p className="text-center lg:w-[70%] text-base mt-5">
             Desenvolvedor com 2 anos de experiência em TypeScript, React.js,
             Next.js, Redux, Material-UI, Tailwind css, Styled Components,
             Nest.js, .NetCore, Postgres e Docker. Sempre comprometido com a
@@ -160,10 +166,11 @@ export default function Home() {
             qualidade e atendam as expectativas dos clientes.
           </p>
         </div>
-        <div className="mt-20 flex flex-col gap-4 items-center w-full">
+        <div className="mt-40 flex flex-col gap-4 items-center w-full">
           <h2 className="text-white-500 text-2xl border-b-2 border-teal-500">
             <a name="stacks">Stacks</a>
           </h2>
+
           <div className="flex flex-wrap gap-24 mt-6 justify-center">
             <StackCard
               title="CSS 3"
@@ -449,12 +456,39 @@ export default function Home() {
             />
           </div>
         </div>
-        <div className="mt-20 flex flex-col gap-4 items-center w-full">
+        <div className="mt-40 flex flex-col gap-4 items-center w-full">
           <h2 className="text-white-500 text-2xl border-b-2 border-teal-500">
             <a name="projetos">Projetos</a>
           </h2>
+          <div className="flex flex-wrap gap-20 mt-10 justify-center">
+            <ProjectCard />
+            <ProjectCard />
+            <ProjectCard />
+            <ProjectCard />
+            <ProjectCard />
+            <ProjectCard />
+            <ProjectCard />
+            <ProjectCard />
+            <ProjectCard />
+            <ProjectCard />
+            <ProjectCard />
+            <ProjectCard />
+            <ProjectCard />
+            <ProjectCard />
+            <ProjectCard />
+            <ProjectCard />
+            <ProjectCard />
+            <ProjectCard />
+            <ProjectCard />
+            <ProjectCard />
+            <ProjectCard />
+            <ProjectCard />
+            <ProjectCard />
+            <ProjectCard />
+            <ProjectCard />
+          </div>
         </div>
-        <div className="mt-20 flex flex-col gap-4 items-center w-full">
+        <div className="mt-40 flex flex-col gap-4 items-center w-full">
           <h2 className="text-white-500 text-2xl border-b-2 border-teal-500">
             <a name="contatos">Contatos</a>
           </h2>

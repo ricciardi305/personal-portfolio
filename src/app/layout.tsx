@@ -19,6 +19,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
+      <head>
+        <link rel="icon" href="favicon.png" type="image/png" sizes="32x32" />
+      </head>
       <body className={openSans.className}>{children}</body>
     </html>
   )
