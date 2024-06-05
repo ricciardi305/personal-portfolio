@@ -6,7 +6,7 @@ export default function ProjectCard() {
       <p className="text-white-500 text-center font-semibold pb-2 text-lg">
         Título
       </p>
-      <div>
+      <div className="w-full h-60">
         <Image
           src="/dev-img.jpg"
           alt="Imagem de desenvolvimento"
@@ -70,11 +70,6 @@ export default function ProjectCard() {
           </button>
         </div>
       </div>
-      {/* <p>Titulo</p>
-      <div>Ícones stacks</div>
-      <div></div>
-      <div>
-      </div> */}
     </div>
   )
 }

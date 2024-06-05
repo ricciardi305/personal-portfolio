@@ -458,27 +458,6 @@ export default function Home() {
               <ProjectCard />
               <ProjectCard />
               <ProjectCard />
-              <ProjectCard />
-              <ProjectCard />
-              <ProjectCard />
-              <ProjectCard />
-              <ProjectCard />
-              <ProjectCard />
-              <ProjectCard />
-              <ProjectCard />
-              <ProjectCard />
-              <ProjectCard />
-              <ProjectCard />
-              <ProjectCard />
-              <ProjectCard />
-              <ProjectCard />
-              <ProjectCard />
-              <ProjectCard />
-              <ProjectCard />
-              <ProjectCard />
-              <ProjectCard />
-              <ProjectCard />
-              <ProjectCard />
             </div>
           </div>
           <div className="mt-10 md:mt-0 flex flex-col gap-4 items-center w-full">
