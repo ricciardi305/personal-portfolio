@@ -154,7 +154,7 @@ export default function Home() {
         <div className="w-full flex flex-col gap-10 mt-10 md:gap-52 md:mt-48">
           <div className="mt-10 md:mt-0 flex flex-col gap-4 items-center w-full">
             <h2 className="text-white-500 text-2xl border-b-2 border-teal-500">
-              <a name="sobre">Sobre mim</a>
+              <div id="sobre">Sobre mim</div>
             </h2>
             <p className="text-center lg:w-[70%] text-base mt-5">
               Desenvolvedor com 2 anos de experiência em TypeScript, React.js,
@@ -172,7 +172,7 @@ export default function Home() {
           </div>
           <div className="mt-10 md:mt-0 flex flex-col gap-4 items-center w-full">
             <h2 className="text-white-500 text-2xl border-b-2 border-teal-500">
-              <a name="stacks">Stacks</a>
+              <div id="stacks">Stacks</div>
             </h2>
 
             <div className="flex flex-wrap gap-24 mt-6 justify-center">
@@ -462,7 +462,7 @@ export default function Home() {
           </div>
           <div className="mt-10 md:mt-0 flex flex-col gap-4 items-center w-full">
             <h2 className="text-white-500 text-2xl border-b-2 border-teal-500">
-              <a name="projetos">Projetos</a>
+              <div id="projetos">Projetos</div>
             </h2>
             <div className="flex flex-wrap gap-20 mt-10 justify-center">
               <ProjectCard />
@@ -494,7 +494,7 @@ export default function Home() {
           </div>
           <div className="mt-10 md:mt-0 flex flex-col gap-4 items-center w-full">
             <h2 className="text-white-500 text-2xl border-b-2 border-teal-500">
-              <a name="contatos">Contatos</a>
+              <div id="contatos">Contatos</div>
             </h2>
             <div className="flex flex-wrap gap-20 md:gap-40 w-full items-center justify-center mt-10">
               <div className="flex flex-col items-center gap-1">
