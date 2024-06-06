@@ -9,6 +9,10 @@
 ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
+<p>
+    <img src="https://img.shields.io/github/repo-size/ricciardi305/personal-portfolio"/>
+    <img src="https://img.shields.io/github/last-commit/ricciardi305/personal-portfolio"/>
+</p>
 
 <br/>
 
@@ -41,3 +45,12 @@
  - Typescript
  - ReactJS
 
+# Autor
+
+<a href="https://github.com/ricciardi305">
+    <img src="https://avatars.githubusercontent.com/u/81863575?v=4&s=150" alt=""/>
+    <br />
+    <sub style="font-size: 16px"><b>Rafael Ricciardi</b></sub>
+</a>
+
+> Feito com ❤️ por Rafael Ricciardi 👋🏽 Entre em contato!
