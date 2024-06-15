@@ -23,7 +23,7 @@ export function About() {
   }, [controls, inView])
 
   return (
-    <div className="mt-10 md:snap-start md:mt-0 flex flex-col px-10 gap-4 items-center w-full">
+    <div className="mt-10 md:snap-center md:mt-40 flex flex-col gap-4 items-center w-full">
       <h2 className="text-white-500 text-2xl border-b-2 border-teal-500">
         <div id="sobre">Sobre mim</div>
       </h2>
@@ -32,7 +32,7 @@ export function About() {
         initial="hidden"
         variants={motionVariants}
         ref={ref}
-        className="text-center lg:w-[70%] text-base mt-5"
+        className="text-center md:w-[70%] text-base mt-5"
       >
         Desenvolvedor com 2 anos de experiência em TypeScript, React.js,
         Next.js, Redux, Material-UI, Tailwind css, Styled Components, Nest.js,

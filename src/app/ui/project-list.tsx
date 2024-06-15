@@ -38,7 +38,7 @@ export function ProjectList() {
       initial="hidden"
       variants={motionVariants}
       ref={ref}
-      className="flex flex-wrap gap-20 mt-10 justify-center"
+      className="flex flex-wrap gap-20 mt-10 justify-center lg:w-[70%] lg:mx-auto mx-10"
     >
       <ProjectCard
         title="Admin Dashboard"

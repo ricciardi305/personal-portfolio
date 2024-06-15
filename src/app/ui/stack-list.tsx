@@ -43,7 +43,7 @@ export function StackList() {
       animate={controls}
       initial="hidden"
       variants={motionVariants}
-      className="flex flex-wrap gap-24 mt-6 justify-center"
+      className="flex flex-wrap gap-24 mt-6 justify-center lg:w-[70%] lg:mx-auto mx-10"
       ref={ref}
     >
       <StackCard

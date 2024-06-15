@@ -1,6 +1,6 @@
 export function Header() {
   return (
-    <div className="w-full z-10 py-4 px-10 sticky top-0 bg-gradient-to-br from-black-500 to-cyan-800">
+    <div className="w-full py-4 px-10">
       <div className="max-w-[1200px] mx-auto flex justify-between items-center">
         <h2 className="text-teal-300 font-semibold text-2xl w-full text-center md:w-auto md:text-left">
           Portfólio

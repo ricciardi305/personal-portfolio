@@ -4,8 +4,8 @@ import { SiGithub, SiGmail, SiLinkedin, SiWhatsapp } from 'react-icons/si'
 
 export function GeneralInfos() {
   return (
-    <div className="md:snap-start flex flex-col md:flex-row mt-10 md:mr-8 items-center gap-10">
-      <div className="flex w-full mt-10 md:mt-20">
+    <div className="md:snap-center w-full flex flex-col md:flex-row mt-10 md:mt-30 items-center gap-10 mx-5">
+      <div className="flex w-full lg:w-[70%] mx-auto mt-10 md:mt-20">
         <div className="hidden md:flex flex-col self-start items-center justify-center gap-4 w-20 pt-10">
           <a target="blank" href="https://github.com/ricciardi305">
             <SiGithub
