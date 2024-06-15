@@ -1,7 +1,14 @@
 import { motion, useAnimation } from 'framer-motion'
 import { useEffect } from 'react'
+import { FaHtml5 } from 'react-icons/fa6'
 import { RiTailwindCssLine } from 'react-icons/ri'
-import { SiJavascript, SiMui, SiNestjs, SiTypescript } from 'react-icons/si'
+import {
+  SiCss3,
+  SiJavascript,
+  SiMui,
+  SiNestjs,
+  SiTypescript,
+} from 'react-icons/si'
 import { useInView } from 'react-intersection-observer'
 import { ProjectCard } from './project-card'
 
@@ -56,6 +63,18 @@ export function ProjectList() {
         svgList={[
           <SiJavascript key={1} fill="#38c0dc" className="w-full h-full" />,
           <SiTypescript key={2} fill="#38c0dc" className="w-full h-full" />,
+        ]}
+      />
+      <ProjectCard
+        title="Food Restaurant"
+        image="/landing-page-restaurant.png"
+        repo="https://github.com/ricciardi305/landing-page-restaurant"
+        demo="https://ricciardi305.github.io/landing-page-restaurant/"
+        stack="Frontend"
+        svgList={[
+          <SiCss3 key={1} fill="#38c0dc" className="w-full h-full" />,
+          <FaHtml5 key={2} fill="#38c0dc" className="w-full h-full" />,
+          <SiJavascript key={3} fill="#38c0dc" className="w-full h-full" />,
         ]}
       />
     </motion.div>
