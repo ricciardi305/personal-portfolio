@@ -9,7 +9,7 @@ interface ProjectCardProps {
   readonly svgList?: JSX.Element[]
 }
 
-export default function ProjectCard({
+export function ProjectCard({
   title,
   image,
   demo,
