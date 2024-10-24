@@ -1,5 +1,6 @@
 import { motion, useAnimation } from 'framer-motion'
 import { useEffect } from 'react'
+import { FaWordpress } from 'react-icons/fa'
 import { FaHtml5 } from 'react-icons/fa6'
 import { RiTailwindCssLine } from 'react-icons/ri'
 import {
@@ -75,6 +76,24 @@ export function ProjectList() {
           <SiCss3 key={1} fill="#38c0dc" className="w-full h-full" />,
           <FaHtml5 key={2} fill="#38c0dc" className="w-full h-full" />,
           <SiJavascript key={3} fill="#38c0dc" className="w-full h-full" />,
+        ]}
+      />
+      <ProjectCard
+        title="Prazeres da cozinha"
+        image="/prazeres-da-cozinha.PNG"
+        demo="https://prazeresdacozinha.com.br/"
+        stack="Frontend"
+        svgList={[
+          <FaWordpress key={1} fill="#38c0dc" className="w-full h-full" />,
+        ]}
+      />
+      <ProjectCard
+        title="Super Promo Net"
+        image="/super-promo-net.PNG"
+        demo="https://superpromonet.com.br/"
+        stack="Frontend"
+        svgList={[
+          <FaWordpress key={1} fill="#38c0dc" className="w-full h-full" />,
         ]}
       />
     </motion.div>
